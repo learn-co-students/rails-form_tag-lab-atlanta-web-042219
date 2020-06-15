@@ -1,0 +1,15 @@
+<h1>Student Form</h1>
+
+<form action="/students/new" method="get">
+  <input type="text" name="student[first_name]" placeholder="first name">
+  <input type="text" name="student[last_name]" placeholder="last name">
+  <input type="submit" value="Submit Student">
+</form>
+
+<!--
+<% if params[:student] %>
+  <p>First name: <%= params[:student][:first] %></p>
+<% end %>
+-->
+
+<%= params %>
