@@ -1,0 +1,5 @@
+<% @header_msg = 'New Student Form' %>
+<% @button_msg = 'Submit Student' %>
+<%= render "form" %>
+
+<%= session[:form_params] if session[:form_params] %>
